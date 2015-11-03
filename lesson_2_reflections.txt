@@ -1,0 +1,3 @@
+Q: A: How is the staging area different from the working directory and the repository? B: What value do you think it offers?
+A A: Working directory contains files associated with the checkout commit. Staging area contains a subset you plan to commit (and can also contain files from other working directories). 
+A B: Possibility to not commit all the changes files. 
