@@ -1,3 +1,6 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: when you need a backup, want to collaborat ewith others or use multiple devices
+
 Commands (thanks to Denyos):
 
 git remote  |    Show all remote locations for the repository
