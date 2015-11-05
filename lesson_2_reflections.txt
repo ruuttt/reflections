@@ -1,3 +1,18 @@
 Q: A: How is the staging area different from the working directory and the repository? B: What value do you think it offers?
 A A: Working directory contains files associated with the checkout commit. Staging area contains a subset you plan to commit (and can also contain files from other working directories). 
 A B: Possibility to not commit all the changes files. 
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: by not adding all the files at once to your staging area
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: testing some new feature and ask stakeholders for feedback. In the meantime I can fix buges in the major version. 
+
+Q: How do the diagrams help you visualize the branch structure?
+A: It helps you do find out which commits are unreachable and get an overview of which commits belong to which branche.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: The changes from both branches were combined into one of the two branches. The diagram helps to better understand what happens. 
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: pro's: saves a lot of time, con's: potentially code can not compile anymore
